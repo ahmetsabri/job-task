@@ -1,0 +1,7 @@
+Task 5: Q&A
+A. It's a scheduled command executes every hour on one server (in case of the app worked on multiple servers) in background (it means it will take long time) 
+without overleaping means this command will be executed and must be finished to run again
+
+B. Cache per app while Context for request 
+C. $query->update() updates bulk data, $model->update() updates single model(record)
+$model->updateQuietly() updates single model without firing observers 
